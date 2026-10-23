@@ -133,7 +133,7 @@ def extract_numeric_prefix(filename: str) -> int:
 
 
 def build_title_prompt(title: str) -> str:
-    return f"a scale model kit product named {title}"
+    return f"a photograph of {title}"
 
 
 def bbox_area_ratio(x1: int, y1: int, x2: int, y2: int, img_w: int, img_h: int) -> float:
